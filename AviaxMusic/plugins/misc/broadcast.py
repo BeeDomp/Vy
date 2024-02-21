@@ -27,7 +27,7 @@ async def braodcast_message(client, message, _):
 
     if "-wfchat" in message.text or "-wfuser" in message.text:
         if not message.reply_to_message or not (message.reply_to_message.photo or message.reply_to_message.text):
-            return await message.reply_text("Please reply to a text or image message for broadcasting.")
+            return await message.reply_text("Silakan balas pesan teks atau gambar untuk disiarkan.")
 
         # Extract data from the replied message
         if message.reply_to_message.photo:
@@ -77,7 +77,7 @@ async def braodcast_message(client, message, _):
                     await asyncio.sleep(fw.x)
                 except:
                     continue
-            await message.reply_text(f"Broadcast to users completed! Sent to {sent_users} users.")
+            await message.reply_text(f"Siaran ke pengguna selesai! Dikirim ke {sent_users} users.")
 
         IS_BROADCASTING = False
         return
