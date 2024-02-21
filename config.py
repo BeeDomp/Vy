@@ -78,17 +78,17 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/9b6ca73a53654bd492b91.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/68e169be4294a291ebf8b.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/c54cb033a0edec93faaaa.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/c541da3521feced201999.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
-STATS_IMG_URL = "https://telegra.ph/file/ca335f942e5021b837a58.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/c3f4f8a443333842dd1f3.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/737fceed0883e53576b13.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/de157ee8f1053273de9a1.jpg"
 YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
