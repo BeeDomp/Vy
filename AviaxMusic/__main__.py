@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("Assistant client variables not defined, exiting...")
+        LOGGER(__name__).error("Variabel klien asisten tidak ditentukan, sudah keluar...")
         exit()
     await sudo()
     try:
@@ -36,7 +36,7 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("AviaxMusic.plugins" + all_module)
-    LOGGER("AviaxMusic.plugins").info("Successfully Imported Modules...")
+    LOGGER("AviaxMusic.plugins").info("Modul Berhasil Diimpor...")
     await userbot.start()
     await Aviax.start()
     try:
@@ -49,13 +49,13 @@ async def init():
     except:
         pass
     await Aviax.decorators()
-    LOGGER("BeeMusic").info(
+    LOGGER("BeeSpotify").info(
         "\x41\x76\x69\x61\x78\x20\x4d\x75\x73\x69\x63\x20\x53\x74\x61\x72\x74\x65\x64\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\x79\x2e\x0a\x0a\x44\x6f\x6e\x27\x74\x20\x66\x6f\x72\x67\x65\x74\x20\x74\x6f\x20\x76\x69\x73\x69\x74\x20\x40\x41\x76\x69\x61\x78\x4f\x66\x66\x69\x63\x69\x61\x6c"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("BeeMusic").info("Stopping Bee Music Bot...")
+    LOGGER("BeeSpotify").info("Menghentikan Bot Music Bee...")
 
 
 if __name__ == "__main__":
