@@ -33,7 +33,7 @@ class Aviax(Client):
             )
         except (errors.ChannelInvalid, errors.PeerIdInvalid):
             LOGGER(__name__).error(
-                "Bot gagal mengakses grup/saluran log. Pastikan Anda telah menambahkan bot ke grup/saluran log Anda."
+                "Bot gagal mengakses grup/saluran log. Pastikan anda telah menambahkan bot ke grup/saluran log anda."
             )
             exit()
         except Exception as ex:
